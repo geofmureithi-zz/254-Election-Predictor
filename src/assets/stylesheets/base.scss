@@ -1,4 +1,147 @@
-h1 {
-  font-family: helvetica;
-  font-weight: 200;
+.page {
+  margin: 0 auto;
+  text-align: left;
+  background-color: #eee;
+}
+
+body {
+  font: 16px/26px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #454545;
+  margin: 0px;
+  padding: 0px;
+  background-color: #eee;
+}
+
+header {
+  padding: 0.75em 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  font-size: 21px;
+  text-shadow: 1px 1px #ccc;
+}
+
+.map-container {
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+#stateResults {
+  width: 25%;
+  font: 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #454545;
+}
+
+#countryResults {
+  width: 95%;
+  font: 16px/28px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #454545;
+}
+
+#stateResults,
+#countryResults {
+  border-collapse: collapse;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(204, 204, 204, 0.5);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(204, 204, 204, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(204, 204, 204, 0.5);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+#stateResults th {
+  background-color: #3b3b3b;
+  color: white;
+}
+
+#countryResults th {
+  background-color: rgb(0, 84, 185);
+  color: white;
+}
+
+.name-1 {
+  background-color: rgba(222,24,47,100);
+  color: white;
+}
+
+.name-2 {
+  background-color: #141f6c;
+  color: white;
+}
+
+.winner {
+  background-color: rgb(0, 84, 185);
+  color: white;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+footer span {
+  color: rgb(11, 32, 57);
+  padding: 0 5px;
+}
+//Floating>??
+#floating-button{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #db4437;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
+}
+
+.plus{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 55px;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  animation: plus-out 0.3s;
+  transition: all 0.3s;
+}
+
+#container-floating{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50px;
+}
+
+.circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 33em;
+  -moz-border-radius: 33em;
+  border-radius: 33em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }

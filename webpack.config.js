@@ -12,7 +12,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js','.scss']
+    extensions: ['.js','.scss'],
+    alias: {
+      'd3': 'd3/index.js'
+    }
   },
   output: {
     path: path.join(__dirname, '/dist'),
