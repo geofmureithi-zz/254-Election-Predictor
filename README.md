@@ -1,5 +1,5 @@
 # Kenyan Election Predictor on Map
-[Demo](kenyanelectionpredictor.herokuapp.com)
+[Demo](https://kenyanelectionpredictor.herokuapp.com)
 
 ### OVERIVEW
 This is a simple React + D3 + Express App intended to assist people looking to play around counties and see if their candidate can win.
